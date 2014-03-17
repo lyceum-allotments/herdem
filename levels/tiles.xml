@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<resource>
+<imageatlas size="32x32" file="tiles.png">
+
+<image id="0" offset="0,0" />
+<image id="1" offset="32,0" />
+<image id="2" offset="64,0" />
+<image id="3" offset="96,0" />
+<image id="4" offset="128,0" />
+<image id="5" offset="160,0" />
+<image id="6" offset="0,32" />
+<image id="7" offset="32,32" />
+<image id="8" offset="64,32" />
+<image id="9" offset="96,32" />
+<image id="10" offset="128,32" />
+<image id="11" offset="160,32" />
+<image id="12" offset="0,64" />
+<image id="13" offset="32,64" />
+<image id="14" offset="64,64" />
+<image id="15" offset="96,64" />
+<image id="16" offset="128,64" />
+<image id="17" offset="160,64" />
+<image id="18" offset="0,96" />
+<image id="19" offset="32,96" />
+<image id="20" offset="64,96" />
+<image id="21" offset="96,96" />
+<image id="22" offset="128,96" />
+<image id="23" offset="160,96" />
+<image id="24" offset="0,128" />
+<image id="25" offset="32,128" />
+<image id="26" offset="64,128" />
+<image id="27" offset="96,128" />
+<image id="28" offset="128,128" />
+<image id="29" offset="160,128" />
+<image id="30" offset="0,160" />
+<image id="31" offset="32,160" />
+<image id="32" offset="64,160" />
+<image id="33" offset="96,160" />
+<image id="34" offset="128,160" />
+<image id="35" offset="160,160" />
+<image id="36" offset="0,192" />
+<image id="37" offset="32,192" />
+<image id="38" offset="64,192" />
+<image id="39" offset="96,192" />
+<image id="40" offset="128,192" />
+<image id="41" offset="160,192" />
+</imageatlas>
+<tileset>
+<tile id="blank1"><image ref="0"/></tile>
+<tile id="mud_bl"><image ref="1"/></tile>
+<tile id="mud_b"><image ref="2"/></tile>
+<tile id="mud_br"><image ref="3"/></tile>
+<tile id="blank2"><image ref="4"/></tile>
+<tile id="blank3"><image ref="5"/></tile>
+<tile id="blank4"><image ref="6"/></tile>
+<tile id="mud_l"><image ref="7"/></tile>
+<tile id="mud_c"><image ref="8"/></tile>
+<tile id="mud_r"><image ref="9"/></tile>
+<tile id="mud_convex_bl"><image ref="10"/></tile>
+<tile id="mud_convex_br"><image ref="11"/></tile>
+<tile id="grass_1"><image ref="12"/></tile>
+<tile id="mud_tl"><image ref="13"/></tile>
+<tile id="mud_t"><image ref="14"/></tile>
+<tile id="mud_tr"><image ref="15"/></tile>
+<tile id="mud_convex_tl"><image ref="16"/></tile>
+<tile id="mud_convex_tr"><image ref="17"/></tile>
+<tile id="stones"><image ref="18"/></tile>
+<tile id="grass_2"><image ref="19"/></tile>
+<tile id="flowers"><image ref="20"/></tile>
+<tile id="mud_1"><image ref="21"/></tile>
+<tile id="wall_end_br"><image ref="22"/></tile>
+<tile id="wall_end_tr"><image ref="23"/></tile>
+<tile id="mud_1"><image ref="24"/></tile>
+<tile id="wall_bl"><image ref="25"/></tile>
+<tile id="wall_b"><image ref="26"/></tile>
+<tile id="wall_br"><image ref="27"/></tile>
+<tile id="wall_end_bl"><image ref="28"/></tile>
+<tile id="wall_end_tl"><image ref="29"/></tile>
+<tile id="buttercup"><image ref="30"/></tile>
+<tile id="wall_l"><image ref="31"/></tile>
+<tile id="grass_2"><image ref="32"/></tile>
+<tile id="wall_r"><image ref="33"/></tile>
+<tile id="wall_end_rb"><image ref="34"/></tile>
+<tile id="wall_end_lb"><image ref="35"/></tile>
+<tile id="daisy"><image ref="36"/></tile>
+<tile id="wall_tl"><image ref="37"/></tile>
+<tile id="wall_t"><image ref="38"/></tile>
+<tile id="wall_tr"><image ref="39"/></tile>
+<tile id="wall_end_rt"><image ref="40"/></tile>
+<tile id="wall_end_lt"><image ref="41"/></tile>
+</tileset>
+</resource>

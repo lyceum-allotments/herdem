@@ -1,0 +1,9 @@
+
+BUGS & OTHER ISSUES
+===================
+
+* animations are currently broken FIXED (19/02/13)
+* the sheep should not 'go crazy' when cornered against a wall
+* if you are 'pushing' a sheep with your dog and bang that sheep into another sheep then the second sheep will just obey the normal laws of momentum and go whizzing off a fast speed
+* if dog is standing still and get banged into it will start moving, should stand its ground
+* dog can appear outside of screen and can leave the screen through the pen

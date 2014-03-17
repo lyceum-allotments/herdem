@@ -1,0 +1,52 @@
+Herd'em architecture
+====================
+
++---------+      +---------------+
+| main.py |  +-> | c_handlers.py |              +---------+
++---------+  |   +---------------+         +--- | menu.py | 
+     |       |                             |    +---------+
+     |   +---------------+                 |  +---------------+
+     +-> | controller.py | <---uses-layers-+--| game_layer.py | 
+         +---------------+            +       +---------------+
+                ^                     |  +----------------+
+                |                     +--| event_layer.py |
+            models                       +----------------+
+    +------------+------------+
+    |            |            |
++--------+  +----------+ +---------+
+| dog.py |  | sheep.py | | wolf.py |
++--------+  +----------+ +---------+
+
+General notes:
+    * The objective of the new architecture is to move to a more MVC like pattern.
+    * Views will be CCLayers.
+    * Layers should not have any knowledge of other layers.
+    * Game logic such as pausing the game and so on should never be in views(layers).
+    * A CCScene object will be use for the controller (mainly a Level object).
+    * Sprite representations would form the model. 
+
+
+main.py:
+    * creates the director and sets screen res.
+    * creates a new level object
+    * run level 0 (menu)
+
+controller.py:
+    * controller object for the level
+    * keep track of chipmunk's space
+    * loads layer corresponding to level and run it
+    * pause game and similar functions.
+
+c_handlers.py:
+    * controller helper that contains the collision handling functions
+
+constants.py: 
+    * so far it only contains the collision handler names.
+    * it should probably be merged into a game state file when created.
+
+menu.py:
+    *layer used for initial menu
+
+bg_layer.py:
+    * represents the background used in a level
+

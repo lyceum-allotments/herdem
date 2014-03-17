@@ -1,0 +1,58 @@
+Herd 'Em Wish List
+
+* Clean the code
+    N Haven't looked into this much, but it must be a mess
+* Game timer
+    - Games should have a time limit, this provides another way to make the game more challenging
+    - Have a hall of fame with players who have completed the level in the least time
+* Sort out the collision manager
+    J You can still tunnel the sheep through walls
+* Tile collision handler
+    J It would be nice to be able to define a handler to be called when a sprite goes over a certain tile sprite
+    J This would allow you to have tiles representing different terrains, avoiding sticky mud or delicious distracting flowers for example might be crucial to finishing the level on time
+* More types of levels
+    - Separate sheep
+        - Have two types of sheep and get them into two types of pen
+    - More hazards
+        - Fox: Kills sheep but will run away from a sheep-dog
+        - Wolf: Kills sheep makes sheep-dog run (a short distance) away from it
+        - Big bad wolf: Kills sheep and sheep-dogs?
+        - Tractor: ploughing field, crushes sheep and sheep-dogs under its wheels
+        - Water: a type of tile that if sheep fall in they drown
+            - Maybe they only drown after a certain amount of time but it's possible for a dog to jump in and save them
+            - A level could involve getting the sheep to swim cross a river
+        - A bridge that if too many sheep get on a section collapses
+        - Bones
+            - If you get too close to them your dog runs to the bone and stops there until a certain amount of time has passed and it has eaten the bone
+    - Don't panic the sheep
+        - Have a 'panic-meter' that rises if you get too close to the sheep
+    - Get rid of the pen
+        - Just have a piece of ground that you have to keep the sheep all on for a certain amount of time
+    - Different things to herd
+        - Herding cats, much more difficult than herding sheep
+* Make dog control more organic
+    - Include acceleration
+    - Make a dog have a turning circle
+* Dogs with different attributes
+    - Top speed
+    - Acceleration
+    - Turning circle
+    - Fear factor (how close to a sheep it must get before the sheep runs)
+    - Weight
+        - The lighter a dog the more quickly it can run over mud/snow etc.
+    - Obedience
+        - How easily distracted a dog becomes by bones
+* Network play
+    - Vs. mode where you compete with your friend to see who can get the most sheep into their pen
+* Artwork
+    - Tiles
+        - Stone-walls
+        - Grass
+        - Mud
+        - Flowers
+        - Water
+    - Idle animations
+        - Dog scratching itself when still too long etc.
+    - Dead sheep have a grave stone?
+    - Tractor
+    - Menu screens, splash screen for each level
